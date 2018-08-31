@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Member.master.cs" Inherits="Tag.MasterPages.Member" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Glozz@ry</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../Images/icon.ico" />
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../Script/jquery-ui-1.11.1/jquery-ui.min.js"></script>
+    <link href="../Script/jquery-ui-1.11.1/jquery-ui.min.css" rel="stylesheet" />
+    <link href="../Script/jquery-ui-1.11.1/jquery-ui.theme.min.css" rel="stylesheet" />
+    <link href="../Script/jquery-ui-1.11.1/jquery-ui.structure.min.css" rel="stylesheet" />
+
+    <link href="../Script/bootstrap3.2.0/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Script/bootstrap3.2.0/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="../Script/bootstrap3.2.0/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+       $.widget("custom.catcomplete", $.ui.autocomplete, {
+           _create: function () {
+               this._super();
+               this.widget().menu("option", "items", "> :not(.ui-autocomplete-category)");
+           },
+           _renderMenu: function (ul, items) {
+               var that = this,
+                 currentCategory = "";
+               $.each(items, function (index, item) {
+                   var li;
+                   if (item.category != currentCategory) {
+                       ul.append("<li class='ui-autocomplete-category'>" + item.category + "</li>");
+                       currentCategory = item.category;
+                   }
+                   li = that._renderItemData(ul, item);
+                   if (item.category) {
+                       li.attr("aria-label", item.category + " : " + item.label);
+                   }
+               });
+           }
+       });
+
+            var data = [
+              { label: "annhhx10", category: "Products" },
+              { label: "annk K12", category: "Products" },
+              { label: "annttop C13", category: "Products" },
+              { label: "anders andersson", category: "People" },
+              { label: "andreas andersson", category: "People" },
+              { label: "andreas johnson", category: "People" }
+            ];
+        
+       $(document).ready(function() {
+           $("#<%= txtinputtag.ClientID%>").catcomplete({
+               source: function(request,response) {
+                   $.ajax({
+                       type: "POST",
+                       contentType: "application/json; charset=utf-8",
+                       url: "../Tag/Follow.aspx/GetIntellisense",
+                       dataType: "json",
+                       data: "{'searchtext':'" + request.term + "'}",
+                       success: function (data) {
+                           // if (data.d != "") {
+                           response($.parseJSON(data.d));
+                          // }
+                          // else {
+                          //     var nosuggestion = ["No Suggestions"];
+                               //response(nosuggestion);
+                          // }
+                       }
+                   });
+               },
+               select: function(event, ui) {
+                   $(this).val("");
+                   return false;
+               },
+           });
+       });
+
+        <%--
+        $(document).ready(function () {
+            $("#<%= txtinputtag.ClientID%>").autocomplete({
+                source: function (request, response) 
+        {
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "../Tag/Follow.aspx/GetIntellisense",
+                        dataType: "json",
+                        data: "{'searchtext':'" + request.term + "'}",
+                        success: function (data) {
+                            if (data.d != "") {
+                                response($.map(data.d, function (item) {
+                                    return {
+                                        label: item.Name,
+                                        value: item.Value,
+                                        name: item.Name
+                                    };
+                                }));
+                            }
+                            else {
+                                var nosuggestion = ["No Suggestions"];
+                                response(nosuggestion);
+                            }
+                        }
+                    });
+                },
+                minLength: 2,
+                select: function (event, ui) {
+                 
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+            });
+        });
+        --%>
+
+    </script>
+    <style>
+        .ui-autocomplete-category {
+            color: white;
+            border-color: #84bf47;
+            background-image: -webkit-linear-gradient(top,#9fd03d 0,#9fd03d 100%);
+            border-width: 1px;
+            padding: 0;
+            padding-bottom: 5px;
+            margin: 0;
+            width: 100%;
+            
+        }
+    </style>
+
+</head>
+<body style="background-color: #ecf9d4;">
+    <form class="navbar-form navbar-left" runat="server" style="margin: 0px; padding: 0px; width: 100%;" role="search">
+        <nav class="navbar navbar-default" style="box-shadow: 0px 0px 10px #666; background-image: url('../Images/background.png'); width: 100%; position: fixed; color: White; height: 50px; border: none; z-index: 2; opacity: 0.8;" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div style="position: relative; left: 300px; margin-top: 10px;">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="text" id="txtinputtag" runat="server" class="form-control" style="width: 500px;" placeholder="Search All Tags & Websites"  />
+                                <%--<span class="input-group-btn">
+                                    <button class="btn btn-default" runat="server" onclick="search()" id="btnlogin" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>--%>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../MainPage.aspx"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+                        <li><a href="../Tag/Follow.aspx"><span class="glyphicon glyphicon-tags"></span>&nbsp;Follow</a></li>
+                        <%--<li><a href="../Website/AllWebsite.aspx"><span class="glyphicon glyphicon-tag"></span>&nbsp;website</a></li>--%>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="../Bookmarklet.aspx"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Bookmarklet</a></li>
+                                <li><a href="../User/Profile.aspx"><span class="glyphicon glyphicon-user"></span>&nbsp;Profile</a></li>
+                                <li><a href="../User/Setting.aspx"><span class="glyphicon glyphicon-cog"></span>&nbsp;Setting</a></li>
+                                <li class="divider"></li>
+                                <li><a href="../Authentication/Logout.aspx"><span class="glyphicon glyphicon-off"></span>&nbsp;Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <br/><br/><br/>
+          <div style="width: 100%; text-align: center;padding-left: 60px;">
+            <div style="width: 100%; text-align: center;">
+                <a href="https://www.facebook.com/pages/Glozzary/686084914801723?fref=ts" title="Facebook Page" target="_blank">
+                    <img src="../Images/facebook.png" style="height: 50px; width: 50px;" />
+                </a>
+                <a href="https://twitter.com/Glozzary" title="Twitter" target="_blank">
+                    <img src="../Images/twitter.png" style="height: 50px; width: 50px;" />
+                </a>
+                <a href="http://www.pinterest.com/Glozzary/" title="Pinterest" target="_blank">
+                    <img src="../Images/pinterest.png" style="height: 50px; width: 50px;" />
+                </a>
+            </div>
+            <a href="../AboutUs.aspx" style="color: black;">About Us</a>&nbsp;|&nbsp;<a href="../ContactUs.aspx" style="color: black;">Contact Us</a>&nbsp;|&nbsp;<a href="../Developer.aspx" style="color: black;">Developer</a>
+        </div>
+        <br/>
+    </form>
+</body>
+</html>

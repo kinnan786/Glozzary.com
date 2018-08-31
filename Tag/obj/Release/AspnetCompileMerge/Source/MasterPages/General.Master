@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="General.master.cs" Inherits="Tag.MasterPages.General" %>
+
+<%@ Register TagPrefix="UserControl" TagName="ModalPopup" Src="~/UserControls/ModalPopup.ascx" %>
+<html>
+<head>
+    <title>Glozzary</title>
+    <link rel="shortcut icon" href="../Images/icon.ico" />
+    <script src="../Script/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../Script/jquery-ui-1.10.4/jquery-ui-1.10.4.min.js"></script>
+    <link href="../Styles/css/smoothness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+    <link href="../Styles/StyleSheet2.css" rel="stylesheet" />
+    <script src="../Script/StandardJavascript.js"></script>
+    <script type="text/javascript">
+
+        function openPopup(title) {
+            if (!checkCookie()) {
+                $('#iframemodalpopupuserlogin').attr('src', 'Authentication/PopUpLogin.aspx?prevurl=' + window.location);
+                document.getElementById('btnmodalpopupuserlogin').click();
+            } else
+                window.location = '../Default.aspx';
+            return false;
+        }
+
+        function checkCookie() {
+            if (document.cookie.split('=')[2] != null) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    </script>
+</head>
+<body style="border: 0; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color: #ecf9d4; font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif; color: #141823; font-size: 12px;">
+    <form id="form1" runat="server">
+        <table style="border-collapse: collapse; width: 100%; padding: 0px; margin: 0px;">
+            <tr>
+                <td style="box-shadow: 0px 0px 10px #666; background-image: url('../Images/background.png'); width: 100%; position: fixed; color: White; height: 50px; z-index: 2; opacity: 0.8;"
+                    colspan="3">
+                    <div class="menuclass" style="text-align: center; padding-top: 5px; z-index: 100; text-align: left;">
+                        <div style="text-align: center; position: relative; top: -95px;">
+                            <span id="txtinputtagspan" class="pht" style="opacity: 1; position: relative; left: 80px;">Search</span>
+                            <input type="text" id="txtinputtag" runat="server" style="width: 500px;" />&nbsp;
+                        <asp:Button ID="btnregister" CssClass="simplebutton" runat="server" Text="Sign Up" OnClientClick="return openPopup('Sign Up');" />&nbsp;&nbsp;
+                        <asp:Button ID="btnlogin" CssClass="simplebutton" runat="server" Text="Log In" OnClientClick="return openPopup('Log In');" />&nbsp;&nbsp;
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; min-height: 500px; vertical-align: top;">
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <tr>
+                            <td style="width: 25%;"></td>
+                            <td style="width: 50%;">
+                                <div id="roundborder">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                            <td style="width: 25%;"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <br/><br/><br/>
+                    <div style="width: 100%; text-align: center; position: relative; right: 75px;">
+                        <div>
+                            <a href="https://www.facebook.com/pages/Glozzary/686084914801723?fref=ts" title="Facebook Page" target="_blank">
+                                <img src="../Images/facebook.png" style="height: 50px; width: 50px;" />
+                            </a>
+                            <a href="https://twitter.com/Glozzary" title="Twitter" target="_blank">
+                                <img src="../Images/twitter.png" style="height: 50px; width: 50px;" />
+                            </a>
+                            <a href="http://www.pinterest.com/Glozzary/" title="Pinterest" target="_blank">
+                                <img src="../Images/pinterest.png" style="height: 50px; width: 50px;" />
+                            </a>
+                        </div>
+                        <a href="../AboutUs.aspx" style="color:black;">About Us</a>&nbsp;|&nbsp;<a href="../ContactUs.aspx" style="color:black;">Contact Us</a>&nbsp;|&nbsp;<a href="../Developer.aspx" style="color:black;">Developer</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <input type="button" runat="server" clientidmode='Static' id="btnmodalpopupuserlogin" style="display: none;" />
+        <UserControl:ModalPopup ID="userlogin" runat="server" IframeName="iframemodalpopupuserlogin" ModalPopupButtonId="btnmodalpopupuserlogin" ModalPopupTitle="Login / Sign Up" ModalPopupHeight="400" ModalPopupWidth="700" />
+    </form>
+</body>
+</html>

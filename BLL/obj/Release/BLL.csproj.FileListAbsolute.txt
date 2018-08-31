@@ -1,0 +1,15 @@
+E:\kinnandata\Tag\BLL\bin\Release\BLL.dll
+E:\kinnandata\Tag\BLL\bin\Release\BLL.pdb
+E:\kinnandata\Tag\BLL\bin\Release\DAL.dll
+E:\kinnandata\Tag\BLL\bin\Release\DTO.dll
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.dll
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.Web.dll
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.Models.dll
+E:\kinnandata\Tag\BLL\bin\Release\DAL.pdb
+E:\kinnandata\Tag\BLL\bin\Release\DTO.pdb
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.xml
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.Web.xml
+E:\kinnandata\Tag\BLL\bin\Release\Exceptionless.Models.xml
+E:\kinnandata\Tag\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+E:\kinnandata\Tag\BLL\obj\Release\BLL.dll
+E:\kinnandata\Tag\BLL\obj\Release\BLL.pdb

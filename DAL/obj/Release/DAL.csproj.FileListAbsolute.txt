@@ -1,0 +1,13 @@
+E:\kinnandata\Tag\DAL\bin\Release\DAL.dll
+E:\kinnandata\Tag\DAL\bin\Release\DAL.pdb
+E:\kinnandata\Tag\DAL\bin\Release\DTO.dll
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.dll
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.Web.dll
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.Models.dll
+E:\kinnandata\Tag\DAL\bin\Release\DTO.pdb
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.xml
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.Web.xml
+E:\kinnandata\Tag\DAL\bin\Release\Exceptionless.Models.xml
+E:\kinnandata\Tag\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\kinnandata\Tag\DAL\obj\Release\DAL.dll
+E:\kinnandata\Tag\DAL\obj\Release\DAL.pdb

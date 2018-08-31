@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaggedScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="198.38.83.33:tallal78_8">
+          <Created>2014-10-25T16:40:22.377096+05:00</Created>
+          <Type>SQL</Type>
+          <Server>198.38.83.33</Server>
+          <UserName>tallal78_8</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="NAWAZ:Nawaz\Kinnan">
+          <Created>2014-04-18T19:08:45.3828345+05:00</Created>
+          <Type>SQL</Type>
+          <Server>NAWAZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="dbo.spAddTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>dbo.spAddTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.spAssociateTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>dbo.spAssociateTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fnu_Split_Numbers_to_Tbl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>fnu_Split_Numbers_to_Tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fun_InitCap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>fun_InitCap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fun_SplitString.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>fun_SplitString.sql</FullPath>
+        </FileNode>
+        <FileNode Name="funGetEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>funGetEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="funGetTags.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>funGetTags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetGenerateScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>GetGenerateScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetRateableemotionPlugin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>GetRateableemotionPlugin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddMetaCharTags.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddMetaCharTags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddPremalink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddPremalink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddPremalinkimages.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddPremalinkimages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddPremalinkMetaChar.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spAddPremalinkMetaChar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddRateableEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddRateableEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddRateableEmotion_Emotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddRateableEmotion_Emotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddTagged.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddTagged.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddUserCoverImage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddUserCoverImage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddUserEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddUserEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddUserTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddUserTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAddUserTagSubscription.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAddUserTagSubscription.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spAuthenticateUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spAuthenticateUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDecrementEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spDecrementEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDecrementTaggedEmotion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spDecrementTaggedEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDecrementUserEmotion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spDecrementUserEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDeleteRateableEmotionGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spDeleteRateableEmotionGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDeleteTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spDeleteTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDeleteUserImage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spDeleteUserImage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spDeleteUserTagSubscription.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spDeleteUserTagSubscription.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spEmotionIntellisense.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spEmotionIntellisense.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spExplorehNewsFeed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spExplorehNewsFeed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spFacebookAuthentication.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spFacebookAuthentication.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetAllEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetAllEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetAllTag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetAllTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetAllTags.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetAllTags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetAllWebSite.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetAllWebSite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetEmoNewsFeed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetEmoNewsFeed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetEmotionByUser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetEmotionByUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetEmotionByWebsite.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetEmotionByWebsite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetExploreNewsFeed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetExploreNewsFeed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetIntellisense.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetIntellisense.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetMetachars.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetMetachars.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetPremalinkById.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetPremalinkById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetPremalinkEmotions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetPremalinkEmotions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetPremalinkEmotionsById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetPremalinkEmotionsById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetPremalinkTagsById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetPremalinkTagsById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetRateableEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetRateableEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetRateableEmotionByEmotionGroupId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetRateableEmotionByEmotionGroupId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTag.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagById.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagByUser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagByUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagByWebsite.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagByWebsite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagged.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagged.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTaggedEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetTaggedEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTaggedpremaLink.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTaggedpremaLink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagId.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagNewsFeed.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagNewsFeed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetTagsbyPremalink.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spGetTagsbyPremalink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetUserWebsite.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetUserWebsite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetWebsiteById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetWebsiteById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spGetWebsitePremalink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spGetWebsitePremalink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spIncrementEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spIncrementEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spRateableEmotionIntellisense.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spRateableEmotionIntellisense.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spRegisterUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spRegisterUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spRegisterWebsite.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spRegisterWebsite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spRegisterWebsiteAndUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spRegisterWebsiteAndUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spSearchPremalink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spSearchPremalink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spTagIntellisense.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spTagIntellisense.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spUpdateRateableEmotion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spUpdateRateableEmotion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spUpdateWebsite.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>spUpdateWebsite.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUnParsedPremalik.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUnParsedPremalik.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserEmotion.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserEmotion.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserGeneralInfo.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserGeneralInfo.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserImage.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserImage.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserNewsFeed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserNewsFeed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserPassword.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserPassword.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserTagFeed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>tallal78_8.spGetUserTagFeed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserTags.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserTags.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetUserTagSubscription.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetUserTagSubscription.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetWebsiteByName.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetWebsiteByName.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetWebsiteFeed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetWebsiteFeed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetWebsiteTags.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetWebsiteTags.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spGetWebsiteType.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spGetWebsiteType.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spIncrementTaggedEmotion.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spIncrementTaggedEmotion.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spIncrementUserEmotion.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spIncrementUserEmotion.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spSearchTagIntellisense.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spSearchTagIntellisense.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spSearchWebsite.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spSearchWebsite.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spUpdatePassword.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spUpdatePassword.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spUpdateUser.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spUpdateUser.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spUpdateUsercoverphoto.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spUpdateUsercoverphoto.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spUpdateUserProfileImage.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spUpdateUserProfileImage.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spVerifyEmail.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spVerifyEmail.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spVoteContent.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tallal78_8.spVoteContent.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tallal78_8.spVoteTag.StoredProcedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:198.38.83.33:False:tallal78_8</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>198.38.83.33</AssociatedConnSrvName>
+          <AssociatedConnUserName>tallal78_8</AssociatedConnUserName>
+          <FullPath>tallal78_8.spVoteTag.StoredProcedure.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

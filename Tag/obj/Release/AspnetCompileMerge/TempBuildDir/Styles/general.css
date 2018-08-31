@@ -1,0 +1,93 @@
+﻿.menuclass {
+    padding: 2px 2px 2px 2px;
+}
+
+    .menuclass a:Link {
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+
+    .menuclass a:hover {
+        color: white;
+    }
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#backgroundPopup {
+    display: none;
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6*/
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000000;
+    border: 1px solid #cecece;
+    z-index: 1;
+}
+
+#popupContact {
+    display: none;
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6*/
+    height: 500px;
+    width: 800px;
+    background: #FFFFFF;
+    border: 2px solid #cecece;
+    z-index: 2;
+    padding: 12px;
+    font-size: 13px;
+}
+
+    #popupContact h1 {
+        text-align: left;
+        color: #6FA5FD;
+        font-size: 22px;
+        font-weight: 700;
+        border-bottom: 1px dotted #D3D3D3;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+    }
+
+#popupContactClose {
+    font-size: 14px;
+    line-height: 14px;
+    right: 6px;
+    top: 4px;
+    position: absolute;
+    color: #6fa5fd;
+    font-weight: 700;
+    display: block;
+}
+
+/*   Button */
+
+.simplebutton {
+    background: url(../Images/simple_button.png) repeat-x;
+    padding: 5px 0;
+    border: 1px solid #608925;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #FFF;
+    text-decoration: none;
+    opacity: .85;
+    z-index: -1;
+}
+
+    .simplebutton:hover {
+        border-color: #49671d;
+        cursor: pointer;
+    }
+
+/*   Button */

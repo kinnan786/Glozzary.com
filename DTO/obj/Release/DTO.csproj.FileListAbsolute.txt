@@ -1,0 +1,4 @@
+E:\kinnandata\Tag\DTO\bin\Release\DTO.dll
+E:\kinnandata\Tag\DTO\bin\Release\DTO.pdb
+E:\kinnandata\Tag\DTO\obj\Release\DTO.dll
+E:\kinnandata\Tag\DTO\obj\Release\DTO.pdb

@@ -1,0 +1,14 @@
+E:\kinnandata\Tag\DTO\bin\Debug\DTO.dll
+E:\kinnandata\Tag\DTO\bin\Debug\DTO.pdb
+E:\kinnandata\Tag\DTO\obj\Debug\DTO.dll
+E:\kinnandata\Tag\DTO\obj\Debug\DTO.pdb
+E:\kinnandata\Tag\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+F:\kinnandata\Tag\DTO\bin\Debug\DTO.dll
+F:\kinnandata\Tag\DTO\bin\Debug\DTO.pdb
+F:\kinnandata\Tag\DTO\obj\Debug\DTO.dll
+F:\kinnandata\Tag\DTO\obj\Debug\DTO.pdb
+F:\kinnandata\Asp.netProjects\Tag\DTO\bin\Debug\DTO.dll
+F:\kinnandata\Asp.netProjects\Tag\DTO\bin\Debug\DTO.pdb
+F:\kinnandata\Asp.netProjects\Tag\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+F:\kinnandata\Asp.netProjects\Tag\DTO\obj\Debug\DTO.dll
+F:\kinnandata\Asp.netProjects\Tag\DTO\obj\Debug\DTO.pdb
